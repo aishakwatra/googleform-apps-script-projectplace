@@ -41,4 +41,18 @@ var TOKEN_SECRET = 'YOUR_ACCESS_TOKEN_SECRET';
 var ASSIGNEE_ID = 'YOUR_ASSIGNEE_ID';
 var BOARD_ID = 'YOUR_BOARD_ID';
 var SPREADSHEET_ID = 'YOUR_SPREADSHEET_ID';
-var SHEET_NAME = 'YOUR_SHEET_NAME';     
+var SHEET_NAME = 'YOUR_SHEET_NAME';
+```
+
+## Final Steps: Configure the On Form Submit Trigger
+After adding and configuring the script, you'll need to set up an **On Form Submit** trigger in Google Apps Script to ensure the code runs automatically whenever a new form submission is received.
+
+**Set Up the Trigger**:
+   - In the Script Editor, go to **Triggers** (the clock icon in the left sidebar).
+   - Click on **+ Add Trigger** in the bottom-right corner.
+   - Configure the trigger settings as follows:
+     - **Choose which function to run**: Select `onFormSubmit`.
+     - **Choose which deployment should run**: Set this to **Head** (or your current deployment).
+     - **Select event source**: Choose **From form**.
+     - **Select event type**: Choose **On form submit**.
+   - Click **Save** to add the trigger.
