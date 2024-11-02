@@ -17,7 +17,8 @@ A Google Apps Script that automates the transfer of Google Form submissions to P
   Where `{SCRIPT ID}` is the ID of the script that is using this library. You
   can find your script's ID in the Apps Script code editor by clicking on the menu
   item "File > Project properties".
-  3.**Save your API Key and Secret** immediately, as ProjectPlace only allows you to view them once during creation.
+  
+  3. **Save your API Key and Secret** immediately, as ProjectPlace only allows you to view them once during creation.
 
 ### 2. Add the Script to Google Apps Script
 
